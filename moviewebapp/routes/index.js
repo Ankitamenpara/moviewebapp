@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 	
 
-router.get('/', function(req, res){
+router.get('/thelist', function(req, res){
 	var query = req.query
 	res.send(query)
 	
