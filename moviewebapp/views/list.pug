@@ -1,0 +1,15 @@
+extends layout
+
+block content
+		table(border = '2')
+			thead
+				tr
+					th YEAR
+					th MOVIES
+			tbody
+				each movie, i in list
+					tr
+						td  #{movie._id}
+						td  #{movie.movies}
+
+
