@@ -1,0 +1,25 @@
+{
+  "name": "moviewebapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankitamenpara/moviewebapp.git"
+  },
+  "author": "ankita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankitamenpara/moviewebapp/issues"
+  },
+  "homepage": "https://github.com/Ankitamenpara/moviewebapp#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.2.28",
+    "pug": "^2.0.0-rc.2"
+  }
+}
