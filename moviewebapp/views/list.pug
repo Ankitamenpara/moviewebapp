@@ -1,19 +1,43 @@
-extends layout
+doctype
+html
+		head(lang = en)
+			meta(charset = utf-8)
+			meta(http-equiv = "X-UA-Compatible" content = "IE-edge")
+			meta(name = "viewport" content = "width-device-width, initial-scale = 1")
+			title  hello
+			link(href = "css/bootstrap.min.css" rel = "stylesheet")
+			script(src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js")
+			script(script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js")
+		body
+			div.container
+				h1 hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
 
-block content
-		a(href="?field=_id&dir=asc") Asc Year
-		a(href="?field=_id&dir=desc") Desc Year
-		a(href="?field=movies&dir=asc") Asc Movies
-		a(href="?field=movies&dir=desc") Desc Movies
-		table(border = '2')
-			thead
-				tr
-					th YEAR
-					th MOVIES
-			tbody
-				each movie, i in list
-					tr
-						td  #{movie._id}
-						td  #{movie.movies}
+				a(href="?field=_id&dir=asc") Asc Year
+				br
+				a(href="?field=_id&dir=desc") Desc Year
+				br
+				a(href="?field=movies&dir=asc") Asc Movies
+				br
+				a(href="?field=movies&dir=desc") Desc Movies
+				br
+				br
+
+				
+					
+
+				table(border = '2')
+					thead
+						tr
+							th YEAR
+							th MOVIES
+					tbody
+						each movie, i in list
+							tr
+								td  #{movie._id}
+								td  #{movie.movies}
+				script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+				script(src="js/bootstrap.min.js")
+ 
+
 
 
